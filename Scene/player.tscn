@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://tmci154x7ee5"]
+
+[ext_resource type="PackedScene" uid="uid://cho66iea8de3" path="res://art/Alpaca.glb" id="1_kelma"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_kelma"]
+height = 1.64797
+
+[node name="Player" type="CharacterBody3D"]
+
+[node name="Pivot" type="Node3D" parent="."]
+
+[node name="Character" parent="Pivot" instance=ExtResource("1_kelma")]
+transform = Transform3D(0.853525, 0, 0, 0, 0.853525, 0, 0, 0, 0.853525, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1.1612, 0, 0, 0, 2.82519, 0, 0, 0, 4.03792, 0, 2.26262, 0)
+shape = SubResource("CapsuleShape3D_kelma")

@@ -1,0 +1,17 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1757580986
+icon.webp::CompressedTexture2D/CompressedTexture2D::27118964165343846::1757580921::1757580973::1::::<><><>0<>0<>2765b228073266418cb0e013965e5088<>res://.godot/imported/icon.webp-e94f9a68b0f625a567a797079e4d325f.ctex::
+::res://art/::1757581125
+Alpaca.glb::PackedScene::155735369829597624::1757581067::1757581156::1::::<><><>0<>0<>3b8d2f5fd32ff88f0fa83d02a6a0a0a1<>res://.godot/imported/Alpaca.glb-a2b34a4e7cdee7666efbf487519107e6.scn::
+body.tres::StandardMaterial3D/StandardMaterial3D::-1::1757580921::0::1::::<><><>0<>0<><>::
+eye.tres::StandardMaterial3D/StandardMaterial3D::-1::1757580921::0::1::::<><><>0<>0<><>::
+Frog.glb::PackedScene::6940161838896340333::1757581117::1757581156::1::::<><><>0<>0<>2786a0996063ce8a334e17a8a6917aef<>res://.godot/imported/Frog.glb-76d33f0fad8c1761b9141defa5cd984a.scn::
+House In a Forest Loop.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::6912470962729766485::1757580921::1757580973::1::::<><><>0<>0<>ca11219f684f6cd2af90d4e6cdaead58<>res://.godot/imported/House In a Forest Loop.ogg-1a6a72ae843ad792b7039931227e8d50.oggvorbisstr::
+mob.glb::PackedScene/PackedScene::2952940687663745631::1757580921::1757580975::1::::<><><>0<>0<>a780a1250ec97030b0168a6a0460c3f3<>res://.godot/imported/mob.glb-3afb43c03b9d1598b6af5154e2543eac.scn::
+mob_body.tres::StandardMaterial3D/StandardMaterial3D::-1::1757580921::0::1::::<><><>0<>0<><>::
+mob_eye.tres::StandardMaterial3D/StandardMaterial3D::-1::1757580921::0::1::::<><><>0<>0<><>::
+player.glb::PackedScene/PackedScene::8964461739428881931::1757580921::1757580975::1::::<><><>0<>0<>888faf6ae4281eadd09c6bedcc72b9b7<>res://.godot/imported/player.glb-08dcfb373480a049995065542e37637b.scn::
+pupil.tres::StandardMaterial3D/StandardMaterial3D::-1::1757580921::0::1::::<><><>0<>0<><>::
+::res://fonts/::1757580973
+LICENSE.txt::TextFile/TextFile::-1::1757580921::0::1::::<><><>0<>0<><>::
+Montserrat-Medium.ttf::FontFile/FontFile::6505293508080888906::1757580921::1757580973::1::::<><><>0<>0<>07233739ee8ed56ec1cb0f04a4ff2983<>res://.godot/imported/Montserrat-Medium.ttf-e832861e4ad4110e172112dc430c04b0.fontdata::
