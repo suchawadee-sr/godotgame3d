@@ -1,2 +1,6 @@
-res://Scene/main.tscn
 res://Scene/player.tscn
+res://Scene/main.tscn
+res://Scene/player.gd
+res://Scene/mob.tscn
+res://Scene/mob.gd
+res://Scene/main.gd

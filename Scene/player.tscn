@@ -1,17 +1,36 @@
-[gd_scene load_steps=3 format=3 uid="uid://tmci154x7ee5"]
+[gd_scene load_steps=5 format=3 uid="uid://tmci154x7ee5"]
 
 [ext_resource type="PackedScene" uid="uid://cho66iea8de3" path="res://art/Alpaca.glb" id="1_kelma"]
+[ext_resource type="Script" uid="uid://yqj0ud87lqnv" path="res://Scene/player.gd" id="1_y8w33"]
 
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_kelma"]
-height = 1.64797
+[sub_resource type="BoxShape3D" id="BoxShape3D_kelma"]
+size = Vector3(3.06931, 4.21219, 3.5097)
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_y8w33"]
+height = 0.177582
+radius = 1.78418
 
 [node name="Player" type="CharacterBody3D"]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, 0, 0, 0)
+collision_mask = 6
+script = ExtResource("1_y8w33")
 
 [node name="Pivot" type="Node3D" parent="."]
 
 [node name="Character" parent="Pivot" instance=ExtResource("1_kelma")]
-transform = Transform3D(0.853525, 0, 0, 0, 0.853525, 0, 0, 0, 0.853525, 0, 0, 0)
+transform = Transform3D(-7.61814e-09, 0, -0.853525, 0, 0.853525, 0, 0.853525, 0, -7.61814e-09, 0, 0, 0)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1.1612, 0, 0, 0, 2.82519, 0, 0, 0, 4.03792, 0, 2.26262, 0)
-shape = SubResource("CapsuleShape3D_kelma")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0884857, 2.38771, 0.334503)
+shape = SubResource("BoxShape3D_kelma")
+
+[node name="MobDetector" type="Area3D" parent="."]
+collision_layer = 0
+collision_mask = 2
+monitorable = false
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MobDetector"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.60747, 0)
+shape = SubResource("CylinderShape3D_y8w33")
+
+[connection signal="body_entered" from="MobDetector" to="." method="_on_mob_detector_body_entered"]
