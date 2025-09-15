@@ -1,5 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://bom68s0l0m0r6"]
-
-[ext_resource type="PackedScene" uid="uid://cho66iea8de3" path="res://art/Alpaca.glb" id="1_itajj"]
-
-[node name="Root Scene" instance=ExtResource("1_itajj")]
