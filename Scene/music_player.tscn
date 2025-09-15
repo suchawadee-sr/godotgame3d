@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bg10doujvobt7"]
+
+[ext_resource type="AudioStream" uid="uid://cgqpaqyalqj5h" path="res://art/to-the-sky-loop.mp3" id="1_nk30b"]
+
+[node name="MusicPlayer" type="AudioStreamPlayer"]
+stream = ExtResource("1_nk30b")
+volume_db = -20.0
+autoplay = true

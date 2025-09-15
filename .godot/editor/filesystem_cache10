@@ -1,21 +1,53 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1757875868
+::res://::1757921203
 icon.webp::CompressedTexture2D/CompressedTexture2D::27118964165343846::1757580920::1757580972::1::::<><><>0<>0<>2765b228073266418cb0e013965e5088<>res://.godot/imported/icon.webp-e94f9a68b0f625a567a797079e4d325f.ctex::
 README.md::TextFile/TextFile::-1::1757612206::0::1::::<><><>0<>0<><>::
-::res://art/::1757612219
-Alpaca.glb::PackedScene/PackedScene::155735369829597624::1757581066::1757581156::1::::<><><>0<>0<>3b8d2f5fd32ff88f0fa83d02a6a0a0a1<>res://.godot/imported/Alpaca.glb-a2b34a4e7cdee7666efbf487519107e6.scn::
+root_scene.tscn::PackedScene::3395779170223005909::1757878744::0::1::::<><><>0<>0<><>::uid://cho66iea8de3::::res://art/Alpaca.glb
+::res://art/::1757928697
+Alpaca.glb::PackedScene/PackedScene::155735369829597624::1757581066::1757927972::1::::<><><>0<>0<>70b585f39f1a375762889424893578e5<>res://.godot/imported/Alpaca.glb-a2b34a4e7cdee7666efbf487519107e6.scn::
 body.tres::StandardMaterial3D/StandardMaterial3D::-1::1757580920::0::1::::<><><>0<>0<><>::
 eye.tres::StandardMaterial3D/StandardMaterial3D::-1::1757580920::0::1::::<><><>0<>0<><>::
-Frog.glb::PackedScene/PackedScene::6940161838896340333::1757581116::1757581156::1::::<><><>0<>0<>2786a0996063ce8a334e17a8a6917aef<>res://.godot/imported/Frog.glb-76d33f0fad8c1761b9141defa5cd984a.scn::
+Fern.glb::PackedScene::5371704104094232752::1757928577::1757928579::1::::<><><>0<>0<>7df17b5bc20f919fcbe6e1bd957d0df9<>res://.godot/imported/Fern.glb-eed4fb23991070e6a52ed411c19ac5b8.scn::uid://cd3ypk2elbmni::::res://art/Fern_Leaves.png
+floor_grass_sliced_F.fbx::PackedScene::5820731589312123990::1757928697::1757928698::1::::<><><>0<>0<>825225f81d217b3afe436f29bb5a8f1e<>res://.godot/imported/floor_grass_sliced_F.fbx-d9a68e8c540944870d8488d2683e6f11.scn::uid://ebqdbrk20q6x::::res://art/floor_grass_sliced_F_0.png
+Flower Group.glb::PackedScene::6874348935458228507::1757928577::1757928580::1::::<><><>0<>0<>02fcf8a6d01a723209990ce89ccf428b<>res://.godot/imported/Flower Group.glb-0a629ecf73e187e9548b98d0de1d7987.scn::uid://boyojo1q64d5s::::res://art/Flower Group_Flowers.png<>uid://dsc0r3qpkf0ou::::res://art/Flower Group_Leaves.png
+Frog.glb::PackedScene/PackedScene::6940161838896340333::1757581116::1757927928::1::::<><><>0<>0<>4e76482aa1eedc5f564a7d7fdd3ad1e8<>res://.godot/imported/Frog.glb-76d33f0fad8c1761b9141defa5cd984a.scn::
 House In a Forest Loop.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::6912470962729766485::1757580920::1757580972::1::::<><><>0<>0<>ca11219f684f6cd2af90d4e6cdaead58<>res://.godot/imported/House In a Forest Loop.ogg-1a6a72ae843ad792b7039931227e8d50.oggvorbisstr::
 mob.glb::PackedScene/PackedScene::2952940687663745631::1757580920::1757580974::1::::<><><>0<>0<>a780a1250ec97030b0168a6a0460c3f3<>res://.godot/imported/mob.glb-3afb43c03b9d1598b6af5154e2543eac.scn::
 mob_body.tres::StandardMaterial3D/StandardMaterial3D::-1::1757580920::0::1::::<><><>0<>0<><>::
 mob_eye.tres::StandardMaterial3D/StandardMaterial3D::-1::1757580920::0::1::::<><><>0<>0<><>::
+Pine2.glb::PackedScene::3764053825246854285::1757928577::1757928583::1::::<><><>0<>0<>6eee4fc8bb368e0c7cc124f5bda94b82<>res://.godot/imported/Pine2.glb-8fabf1176eba1d5b600e18d00144d4a7.scn::uid://dhqaj60lxp560::::res://art/Pine2_Bark_NormalTree.png<>uid://d0funhrdcn71e::::res://art/Pine2_Bark_NormalTree_Normal.png<>uid://bq3llgfndyx2e::::res://art/Pine2_Leaf_Pine_C.png
+Pine.glb::PackedScene::5325850262952303948::1757928577::1757928582::1::::<><><>0<>0<>5b137b3de9b2d359e2f8c38561d02327<>res://.godot/imported/Pine.glb-6e178a2f92ac5c1e4a7d4dc743f780cf.scn::uid://yr4lju5lhtx8::::res://art/Pine_Bark_NormalTree.png<>uid://dknw8yynk3ef7::::res://art/Pine_Bark_NormalTree_Normal.png<>uid://tx2fhp5txlmd::::res://art/Pine_Leaf_Pine_C.png
 player.glb::PackedScene/PackedScene::8964461739428881931::1757580920::1757580974::1::::<><><>0<>0<>888faf6ae4281eadd09c6bedcc72b9b7<>res://.godot/imported/player.glb-08dcfb373480a049995065542e37637b.scn::
 pupil.tres::StandardMaterial3D/StandardMaterial3D::-1::1757580920::0::1::::<><><>0<>0<><>::
-::res://fonts/::1757612219
+Fern_Leaves.png::CompressedTexture2D::5042695037288657258::1757928578::1757928588::1::::<><><>0<>0<>7c73fd1e4d37066ddcc9ab77fa9ca1d2<>res://.godot/imported/Fern_Leaves.png-192dec614c47d79d47df257923b2d56b.s3tc.ctex::
+Flower Group_Flowers.png::CompressedTexture2D::3419476447028217970::1757928579::1757928588::1::::<><><>0<>0<>91a9196b751399b92247e73f2f4ad719<>res://.godot/imported/Flower Group_Flowers.png-2a093ecc13208072f2baab01b2788a09.s3tc.ctex::
+Flower Group_Leaves.png::CompressedTexture2D::8428339771453345788::1757928580::1757928588::1::::<><><>0<>0<>fa0478621fe87d5e8774d92d96346e50<>res://.godot/imported/Flower Group_Leaves.png-5a572bf0d147efdeecc8f3e2a80668b6.s3tc.ctex::
+Pine_Bark_NormalTree_Normal.png::CompressedTexture2D::7889383401542966522::1757928581::1757928588::1::::<><><>0<>0<>2c3123011e20d84f1339e4cc1e4bd46c<>res://.godot/imported/Pine_Bark_NormalTree_Normal.png-c7a98d32f88c0e2b543e8d31b1e5d27e.s3tc.ctex::
+Pine_Bark_NormalTree.png::CompressedTexture2D::1721407610639274659::1757928581::1757928588::1::::<><><>0<>0<>3e8fc85e77d904e7a8a334dc9c1118b0<>res://.godot/imported/Pine_Bark_NormalTree.png-4af4c2cf8a9b46382254f692d3c91a1b.s3tc.ctex::
+Pine_Leaf_Pine_C.png::CompressedTexture2D::1382717397465096623::1757928581::1757928588::1::::<><><>0<>0<>b9b11655bcb31dd9e33f77f9fbabf531<>res://.godot/imported/Pine_Leaf_Pine_C.png-190b33bc73a66d1f893bb67da5da3cb7.s3tc.ctex::
+Pine2_Bark_NormalTree_Normal.png::CompressedTexture2D::8925542980041158432::1757928582::1757928588::1::::<><><>0<>0<>26229e5a4daabbabcc2935550a750076<>res://.godot/imported/Pine2_Bark_NormalTree_Normal.png-1fdbc5971d09369794cd9627af8e955f.s3tc.ctex::
+Pine2_Bark_NormalTree.png::CompressedTexture2D::7683631740130745911::1757928583::1757928588::1::::<><><>0<>0<>312961d284464dc2358d3b6673b34932<>res://.godot/imported/Pine2_Bark_NormalTree.png-58b2fc58ebdd2ecaed5b9d2a57b80bd1.s3tc.ctex::
+Pine2_Leaf_Pine_C.png::CompressedTexture2D::3567932613128441158::1757928583::1757928588::1::::<><><>0<>0<>9a8e6c7d265827231192571e1b869161<>res://.godot/imported/Pine2_Leaf_Pine_C.png-6fb57c78180a74f7494502f90f42be0b.s3tc.ctex::
+floor_grass_sliced_F_0.png::CompressedTexture2D::283796660848630125::1757928697::1757928699::1::::<><><>0<>0<>4f49056e5fcc5c573e26b026bbe9986f<>res://.godot/imported/floor_grass_sliced_F_0.png-01ec417004e4f12022237d5e6b196d3f.s3tc.ctex::
+Tall Grass_Grass.png::CompressedTexture2D::5817710977825689328::1757928585::1757928588::1::::<><><>0<>0<>6fb4f240e53ef6e613aba7c6521732c3<>res://.godot/imported/Tall Grass_Grass.png-f2bb479800c72cd9341257fa165d8029.s3tc.ctex::
+Rock Medium2_Rocks_Diffuse.png::CompressedTexture2D::7711648987749145977::1757928584::1757928588::1::::<><><>0<>0<>a9c7741410e9145a86d7b73945a97cd4<>res://.godot/imported/Rock Medium2_Rocks_Diffuse.png-2e27c17e4fff64cf0d679994cad08d0d.s3tc.ctex::
+Rock Medium_Rocks_Diffuse.png::CompressedTexture2D::1735341226213696958::1757928583::1757928588::1::::<><><>0<>0<>5cab528fd7fd9076cb1efbc0155bdb51<>res://.godot/imported/Rock Medium_Rocks_Diffuse.png-434d4cc408c9a053aa64a31c6a506ada.s3tc.ctex::
+Rock Medium2.glb::PackedScene::5019658540636939425::1757928577::1757928585::1::::<><><>0<>0<>a4d696dbe93e415308e082bc6a46ac3b<>res://.godot/imported/Rock Medium2.glb-5bf4b2357b51e7a86b93229bcf679156.scn::uid://dh4ty5md81plh::::res://art/Rock Medium2_Rocks_Diffuse.png
+Rock Medium.glb::PackedScene::2048798692180411321::1757928577::1757928584::1::::<><><>0<>0<>a5149714d1b40a86e76dcc04ad6dbd0b<>res://.godot/imported/Rock Medium.glb-b9b93651dc220072f1ed77cd931f151e.scn::uid://yyu203d3sngo::::res://art/Rock Medium_Rocks_Diffuse.png
+Tall Grass.glb::PackedScene::4437634646931031438::1757928577::1757928586::1::::<><><>0<>0<>a7ed5622d260025f8a0345663f7cdfa1<>res://.godot/imported/Tall Grass.glb-8f1eca966f4f004f3add949cf74e7767.scn::uid://co5e35nt35fpo::::res://art/Tall Grass_Grass.png
+to-the-sky-loop.mp3::AudioStreamMP3::5227916105635098071::1757921113::1757921113::1::::<><><>0<>0<>c1d0baa99ea5eeaee08b1f2f7c9a8a39<>res://.godot/imported/to-the-sky-loop.mp3-522acaf3273f72132a61c5eb384ee2d8.mp3str::
+::res://fonts/::1757918647
 LICENSE.txt::TextFile/TextFile::-1::1757580920::0::1::::<><><>0<>0<><>::
 Montserrat-Medium.ttf::FontFile/FontFile::6505293508080888906::1757580920::1757580972::1::::<><><>0<>0<>07233739ee8ed56ec1cb0f04a4ff2983<>res://.godot/imported/Montserrat-Medium.ttf-e832861e4ad4110e172112dc430c04b0.fontdata::
-::res://Scene/::1757612219
-main.tscn::PackedScene/PackedScene::453532043358725091::1757583208::0::1::::<><><>0<>0<><>::
-player.tscn::PackedScene/PackedScene::1358497695808966470::1757583208::0::1::::<><><>0<>0<><>::uid://cho66iea8de3::::res://art/Alpaca.glb
+THSarabunNew Bold.ttf::FontFile::6689318809011837819::1757918647::1757918647::1::::<><><>0<>0<>502bc02e9e15e9c23259a9a819a8fe42<>res://.godot/imported/THSarabunNew Bold.ttf-4a1d586056649eea25686432c428a2ca.fontdata::
+::res://Scene/::1757928318
+main.gd::GDScript::5137515509757460594::1757926376::0::1::::<>Node<><>0<>0<><>::
+main.tscn::PackedScene::453532043358725091::1757928318::0::1::::<><><>0<>0<><>::uid://tmci154x7ee5::::res://Scene/player.tscn<>uid://cfgweodo7cdcs::::res://Scene/main.gd<>uid://dypijp5atkd6q::::res://Scene/mob.tscn<>uid://c2kmdruq7midv::::res://fonts/THSarabunNew Bold.ttf<>uid://cty0cfe5xxhcp::::res://Scene/score_label.gd
+mob.gd::GDScript::1653520969845840472::1757928214::0::1::::<>CharacterBody3D<><>0<>0<><>::
+mob.tscn::PackedScene::8875262607010425402::1757928318::0::1::::<><><>0<>0<><>::uid://xs8ipuqjd5jg::::res://Scene/mob.gd<>uid://clsgm77rb2c1t::::res://Scene/frog.tscn
+player.gd::GDScript::1718154445804253383::1757928231::0::1::::<>CharacterBody3D<><>0<>0<><>::
+player.tscn::PackedScene::1358497695808966470::1757928318::0::1::::<><><>0<>0<><>::uid://cho66iea8de3::::res://art/Alpaca.glb<>uid://yqj0ud87lqnv::::res://Scene/player.gd
+music_player.tscn::PackedScene::2862751615988250122::1757928318::0::1::::<><><>0<>0<><>::uid://cgqpaqyalqj5h::::res://art/to-the-sky-loop.mp3
+Character.tscn::PackedScene::2121300118246396397::1757928318::0::1::::<><><>0<>0<><>::uid://cho66iea8de3::::res://art/Alpaca.glb
+frog.tscn::PackedScene::5582464909416840727::1757928318::0::1::::<><><>0<>0<><>::uid://c544pl7np8638::::res://art/Frog.glb
+score_label.gd::GDScript::6157496229203902423::1757926230::0::1::::<>Label<><>0<>0<><>::

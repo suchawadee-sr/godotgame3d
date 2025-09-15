@@ -2,8 +2,8 @@ extends CharacterBody3D
 
 signal hit
 
-# How fast the player moves in meters per second
-@export var speed = 14
+# How fast the player moves in meters per second.
+@export var speed = 8
 # The downward acceleration while in the air, in meters per second squared.
 @export var fall_acceleration = 75
 # Vertical impulse applied to the character upon jumping in meters per second.
@@ -13,6 +13,15 @@ signal hit
 @export var bounce_impulse = 16
 
 var target_velocity = Vector3.ZERO
+
+# --- Animation control ---
+var current_anim = ""
+
+func play_anim(name: String):
+	if current_anim == name:
+		return
+	$Pivot/Character/AnimationPlayer.play(name)
+	current_anim = name
 
 
 func _physics_process(delta):
@@ -31,53 +40,60 @@ func _physics_process(delta):
 	if Input.is_action_pressed("move_forward"):
 		direction.z = direction.z - 1
 
-	# Prevent diagonal moving fast af
+	# Prevent diagonal movement being very fast
 	if direction != Vector3.ZERO:
 		direction = direction.normalized()
 		# Setting the basis property will affect the rotation of the node.
 		$Pivot.basis = Basis.looking_at(direction)
+		# ถ้าเดิน
+		if is_on_floor():
+			play_anim("Walk")
+	else:
+		# Idle เฉพาะตอนอยู่บนพื้น
+		if is_on_floor():
+			play_anim("Idle")
 
 	# Ground Velocity
 	target_velocity.x = direction.x * speed
 	target_velocity.z = direction.z * speed
 
 	# Vertical Velocity
-	if not is_on_floor(): # If in the air, fall towards the floor. Literally gravity
+	if not is_on_floor(): # If in the air, fall towards the floor
 		target_velocity.y = target_velocity.y - (fall_acceleration * delta)
+		# ถ้าอยู่กลางอากาศและกำลังตก
+		if target_velocity.y < 0:
+			play_anim("Jump_toIdle")
 
 	# Jumping.
 	if is_on_floor() and Input.is_action_just_pressed("jump"):
 		target_velocity.y = jump_impulse
+		play_anim("Gallop_Jump")
 
 	# Iterate through all collisions that occurred this frame
-	# in C this would be for(int i = 0; i < collisions.Count; i++)
 	for index in range(get_slide_collision_count()):
-		# We get one of the collisions with the player
 		var collision = get_slide_collision(index)
 
-		# If the collision is with ground
 		if collision.get_collider() == null:
 			continue
 
-		# If the collider is with a mob
 		if collision.get_collider().is_in_group("mob"):
 			var mob = collision.get_collider()
-			# we check that we are hitting it from above.
 			if Vector3.UP.dot(collision.get_normal()) > 0.1:
-				# If so, we squash it and bounce.
 				mob.squash()
 				target_velocity.y = bounce_impulse
-				# Prevent further duplicate calls.
 				break
 
 	# Moving the Character
 	velocity = target_velocity
 	move_and_slide()
 
-# And this function at the bottom.
+	$Pivot.rotation.x = PI / 6 * velocity.y / jump_impulse
+
+
 func die():
 	hit.emit()
 	queue_free()
+
 
 func _on_mob_detector_body_entered(body):
 	die()

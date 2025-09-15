@@ -1,6 +1,10 @@
-res://Scene/player.tscn
 res://Scene/main.tscn
-res://Scene/player.gd
-res://Scene/mob.tscn
-res://Scene/mob.gd
 res://Scene/main.gd
+res://Scene/score_label.gd
+res://Scene/player.tscn
+res://Scene/mob.tscn
+res://Scene/music_player.tscn
+res://Scene/player.gd
+res://Scene/mob.gd
+res://Scene/Character.tscn
+res://Scene/frog.tscn

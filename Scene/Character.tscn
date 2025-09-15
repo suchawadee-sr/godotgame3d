@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://5htrdq084m2p"]
+
+[ext_resource type="PackedScene" uid="uid://cho66iea8de3" path="res://art/Alpaca.glb" id="1_qfbro"]
+
+[node name="Character" instance=ExtResource("1_qfbro")]
+
+[node name="Skeleton3D" parent="RootNode/AnimalArmature" index="0"]
+bones/0/position = Vector3(0, -1.39916e-05, 0.00729656)
+bones/0/rotation = Quaternion(0.707107, 0, 0, 0.707107)
+bones/5/rotation = Quaternion(0.399686, 1.50502e-06, -1.19111e-06, 0.916652)
+bones/6/rotation = Quaternion(0.118438, -1.15251e-07, -1.77158e-07, 0.992962)
+bones/8/rotation = Quaternion(-0.688323, -1.79e-06, 2.79688e-06, 0.725405)
+bones/10/rotation = Quaternion(0.0121462, 0.779105, 0.0933521, 0.619785)
+bones/15/rotation = Quaternion(0.0121462, -0.779105, -0.0933521, 0.619785)
+bones/19/position = Vector3(-0.00177187, 0.00895182, -0.00358583)
+bones/20/rotation = Quaternion(0.749986, 0.657706, 0.0463571, 0.0528618)
+bones/21/rotation = Quaternion(2.74908e-07, 0.990383, 0.138355, 2.18962e-06)
+bones/23/position = Vector3(0.00177149, 0.00895182, -0.00358602)
+bones/24/rotation = Quaternion(0.749986, -0.657706, -0.0463575, 0.0528651)
+bones/25/rotation = Quaternion(-2.4392e-07, 0.990382, 0.138359, -1.91639e-06)
+bones/27/position = Vector3(0.00196891, 0.00345852, -9.83142e-05)
+bones/27/rotation = Quaternion(0.574699, 0.513349, 0.427479, -0.472712)
+bones/28/rotation = Quaternion(0.735897, 0.661754, 0.0958255, 0.10656)
+bones/29/rotation = Quaternion(0.53134, -1.40222e-07, 2.63141e-07, 0.847159)
+bones/30/rotation = Quaternion(-2.91059e-07, 0.887983, -0.459877, 9.00516e-07)
+bones/32/rotation = Quaternion(0.574698, -0.51335, -0.42748, -0.47271)
+bones/33/rotation = Quaternion(0.735897, -0.661754, -0.0958256, 0.10656)
+bones/34/rotation = Quaternion(0.53134, 1.59023e-07, -3.11641e-07, 0.847159)
+bones/35/rotation = Quaternion(2.91404e-07, 0.887983, -0.459877, -9.00735e-07)
+bones/39/rotation = Quaternion(-0.307623, -1.86265e-08, 8.30967e-08, 0.951508)
