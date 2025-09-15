@@ -1,0 +1,13 @@
+res://art/body.tres::35beeb4de78162e343aea7e923245be2::1757580920::res://.godot/exported/133200997/export-c823853e651294e82bcb3fa9ee3e947b-body.res
+res://art/eye.tres::181f58cc6da21b79e5c2bdc950b5d80b::1757580920::res://.godot/exported/133200997/export-51cd196d238063cbe7814cc6cdf6476b-eye.res
+res://art/mob_body.tres::c2c32f8082c89bcbe08f96d216e4bb7f::1757580920::res://.godot/exported/133200997/export-58b0cc164e8fc866840c9c5c6c34f5a3-mob_body.res
+res://art/mob_eye.tres::7457a69f45dd2322ce9cb4cd507a5ba8::1757580920::res://.godot/exported/133200997/export-064e375db0af8d3bebd056adec204f44-mob_eye.res
+res://art/pupil.tres::f27e1543ccc84907108f03b626db2e13::1757580920::res://.godot/exported/133200997/export-3baec91889270d982a7a39af0d0d5e00-pupil.res
+res://fonts/main.tres::87d74f8adb1bc372585ca438e227c83d::1757930492::res://.godot/exported/133200997/export-ba149d36e1437ea292e5557fb555115b-main.res
+res://Scene/main.tscn::862908b4a9965657bbcceeb31011de42::1757931231::res://.godot/exported/133200997/export-12e89150360f40f5e75c345d09a6bab0-main.scn
+res://Scene/mob.tscn::9a2fa76385a712c21560e03722158fd1::1757931231::res://.godot/exported/133200997/export-97899e0f5f50530769ea93fd1e9f1922-mob.scn
+res://Scene/player.tscn::06ee3ddf8d914f9b63a620b90b90e0ff::1757931231::res://.godot/exported/133200997/export-338e31791d3fabafa55f665a3bef2a04-player.scn
+res://Scene/music_player.tscn::ab705334cf527302fd41b7a6b2788c0d::1757931231::res://.godot/exported/133200997/export-98120548ad7d68045d8a960cded978ee-music_player.scn
+res://Scene/Character.tscn::90b5a3f602d1e291cf40a318608def18::1757931231::res://.godot/exported/133200997/export-b4776570bfaed3051a4b0e617a687ac4-Character.scn
+res://Scene/frog.tscn::21b318d9757edbb5740dccd91fbe70e1::1757931231::res://.godot/exported/133200997/export-89b84462494ea4ab1c919cdfa21dafdf-frog.scn
+res://root_scene.tscn::606c1baddd79ccb52fc2013ea11a4e02::1757878744::res://.godot/exported/133200997/export-48c0540df3a39da2f6333d4fa75eab5f-root_scene.scn

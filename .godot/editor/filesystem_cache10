@@ -1,9 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1757921203
+::res://::1757930936
+export_presets.cfg::TextFile::-1::1757930936::0::1::::<><><>0<>0<><>::
 icon.webp::CompressedTexture2D/CompressedTexture2D::27118964165343846::1757580920::1757580972::1::::<><><>0<>0<>2765b228073266418cb0e013965e5088<>res://.godot/imported/icon.webp-e94f9a68b0f625a567a797079e4d325f.ctex::
 README.md::TextFile/TextFile::-1::1757612206::0::1::::<><><>0<>0<><>::
 root_scene.tscn::PackedScene::3395779170223005909::1757878744::0::1::::<><><>0<>0<><>::uid://cho66iea8de3::::res://art/Alpaca.glb
-::res://art/::1757928697
+::res://art/::1757928699
 Alpaca.glb::PackedScene/PackedScene::155735369829597624::1757581066::1757927972::1::::<><><>0<>0<>70b585f39f1a375762889424893578e5<>res://.godot/imported/Alpaca.glb-a2b34a4e7cdee7666efbf487519107e6.scn::
 body.tres::StandardMaterial3D/StandardMaterial3D::-1::1757580920::0::1::::<><><>0<>0<><>::
 eye.tres::StandardMaterial3D/StandardMaterial3D::-1::1757580920::0::1::::<><><>0<>0<><>::
@@ -36,18 +37,23 @@ Rock Medium2.glb::PackedScene::5019658540636939425::1757928577::1757928585::1:::
 Rock Medium.glb::PackedScene::2048798692180411321::1757928577::1757928584::1::::<><><>0<>0<>a5149714d1b40a86e76dcc04ad6dbd0b<>res://.godot/imported/Rock Medium.glb-b9b93651dc220072f1ed77cd931f151e.scn::uid://yyu203d3sngo::::res://art/Rock Medium_Rocks_Diffuse.png
 Tall Grass.glb::PackedScene::4437634646931031438::1757928577::1757928586::1::::<><><>0<>0<>a7ed5622d260025f8a0345663f7cdfa1<>res://.godot/imported/Tall Grass.glb-8f1eca966f4f004f3add949cf74e7767.scn::uid://co5e35nt35fpo::::res://art/Tall Grass_Grass.png
 to-the-sky-loop.mp3::AudioStreamMP3::5227916105635098071::1757921113::1757921113::1::::<><><>0<>0<>c1d0baa99ea5eeaee08b1f2f7c9a8a39<>res://.godot/imported/to-the-sky-loop.mp3-522acaf3273f72132a61c5eb384ee2d8.mp3str::
-::res://fonts/::1757918647
+::res://docs/::1757930936
+index.apple-touch-icon.png::CompressedTexture2D::3486823409133550943::1757930936::1757930981::1::::<><><>0<>0<>b1fdaad6e6a207b29d9327a7dec3012f<>res://.godot/imported/index.apple-touch-icon.png-b21a756d869f84af832970a74d8371bc.ctex::
+index.icon.png::CompressedTexture2D::7901010052810934306::1757930936::1757930981::1::::<><><>0<>0<>e46eb44eb6b5999854b92fb6aa8769f1<>res://.godot/imported/index.icon.png-b92c9a802ad4b78e247784454a6b506f.ctex::
+index.png::CompressedTexture2D::8177978363181685407::1757930936::1757930981::1::::<><><>0<>0<>2148d91db46e162a0c504eb7865be417<>res://.godot/imported/index.png-0c78d14d192abe5f22f8c25928ca1ab8.ctex::
+::res://fonts/::1757930492
 LICENSE.txt::TextFile/TextFile::-1::1757580920::0::1::::<><><>0<>0<><>::
 Montserrat-Medium.ttf::FontFile/FontFile::6505293508080888906::1757580920::1757580972::1::::<><><>0<>0<>07233739ee8ed56ec1cb0f04a4ff2983<>res://.godot/imported/Montserrat-Medium.ttf-e832861e4ad4110e172112dc430c04b0.fontdata::
+main.tres::Theme::879570573959678850::1757930492::0::1::::<><><>0<>0<><>::uid://c2kmdruq7midv::::res://fonts/THSarabunNew Bold.ttf
 THSarabunNew Bold.ttf::FontFile::6689318809011837819::1757918647::1757918647::1::::<><><>0<>0<>502bc02e9e15e9c23259a9a819a8fe42<>res://.godot/imported/THSarabunNew Bold.ttf-4a1d586056649eea25686432c428a2ca.fontdata::
-::res://Scene/::1757928318
+::res://Scene/::1757930959
 main.gd::GDScript::5137515509757460594::1757926376::0::1::::<>Node<><>0<>0<><>::
-main.tscn::PackedScene::453532043358725091::1757928318::0::1::::<><><>0<>0<><>::uid://tmci154x7ee5::::res://Scene/player.tscn<>uid://cfgweodo7cdcs::::res://Scene/main.gd<>uid://dypijp5atkd6q::::res://Scene/mob.tscn<>uid://c2kmdruq7midv::::res://fonts/THSarabunNew Bold.ttf<>uid://cty0cfe5xxhcp::::res://Scene/score_label.gd
+main.tscn::PackedScene::453532043358725091::1757930959::0::1::::<><><>0<>0<><>::uid://tmci154x7ee5::::res://Scene/player.tscn<>uid://cfgweodo7cdcs::::res://Scene/main.gd<>uid://dypijp5atkd6q::::res://Scene/mob.tscn<>uid://co6uumjpom5li::::res://art/floor_grass_sliced_F.fbx<>uid://mscntciull3g::::res://fonts/main.tres<>uid://cty0cfe5xxhcp::::res://Scene/score_label.gd<>uid://c468r1e0j8xah::::res://art/Flower Group.glb<>uid://btvlofs0biog0::::res://art/Pine2.glb<>uid://ch448f6qh1taa::::res://art/Pine.glb<>uid://cisdggevluqd1::::res://art/Fern.glb<>uid://b4hvguukuwjna::::res://art/Tall Grass.glb<>uid://cdrtbppspykjx::::res://art/Rock Medium2.glb<>uid://4gpod5fegf50::::res://art/Rock Medium.glb
 mob.gd::GDScript::1653520969845840472::1757928214::0::1::::<>CharacterBody3D<><>0<>0<><>::
-mob.tscn::PackedScene::8875262607010425402::1757928318::0::1::::<><><>0<>0<><>::uid://xs8ipuqjd5jg::::res://Scene/mob.gd<>uid://clsgm77rb2c1t::::res://Scene/frog.tscn
+mob.tscn::PackedScene::8875262607010425402::1757930959::0::1::::<><><>0<>0<><>::uid://xs8ipuqjd5jg::::res://Scene/mob.gd<>uid://clsgm77rb2c1t::::res://Scene/frog.tscn
 player.gd::GDScript::1718154445804253383::1757928231::0::1::::<>CharacterBody3D<><>0<>0<><>::
-player.tscn::PackedScene::1358497695808966470::1757928318::0::1::::<><><>0<>0<><>::uid://cho66iea8de3::::res://art/Alpaca.glb<>uid://yqj0ud87lqnv::::res://Scene/player.gd
-music_player.tscn::PackedScene::2862751615988250122::1757928318::0::1::::<><><>0<>0<><>::uid://cgqpaqyalqj5h::::res://art/to-the-sky-loop.mp3
-Character.tscn::PackedScene::2121300118246396397::1757928318::0::1::::<><><>0<>0<><>::uid://cho66iea8de3::::res://art/Alpaca.glb
-frog.tscn::PackedScene::5582464909416840727::1757928318::0::1::::<><><>0<>0<><>::uid://c544pl7np8638::::res://art/Frog.glb
+player.tscn::PackedScene::1358497695808966470::1757930959::0::1::::<><><>0<>0<><>::uid://cho66iea8de3::::res://art/Alpaca.glb<>uid://yqj0ud87lqnv::::res://Scene/player.gd
+music_player.tscn::PackedScene::2862751615988250122::1757930959::0::1::::<><><>0<>0<><>::uid://cgqpaqyalqj5h::::res://art/to-the-sky-loop.mp3
+Character.tscn::PackedScene::2121300118246396397::1757930959::0::1::::<><><>0<>0<><>::uid://cho66iea8de3::::res://art/Alpaca.glb
+frog.tscn::PackedScene::5582464909416840727::1757930959::0::1::::<><><>0<>0<><>::uid://c544pl7np8638::::res://art/Frog.glb
 score_label.gd::GDScript::6157496229203902423::1757926230::0::1::::<>Label<><>0<>0<><>::
